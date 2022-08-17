@@ -14,9 +14,7 @@
 
 // !======================== Header Styles Start ========================
 nav{
-    height: 6rem;
     width: 100%;
-    // box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
     display: flex;
     justify-content: space-between;
     z-index: 10;
@@ -109,27 +107,24 @@ nav{
 .hamburger div{
     width: 30px;
     height:3px;
-    background: #f2f5f7;
+    background: #131418;
     margin: 5px;
     transition: all 0.3s ease;
-}
-.hamburger{
-    display: none;
+    border-radius: 10px;
 }
 
-@media screen and (max-width: 800px){
     nav{
         position: fixed;
         z-index: 3;
         height: 4.5rem;
-        background-color: #131418;
+        background-color: white;
         justify-content: space-evenly;
     }
     .nav-logo{
         margin-left: 0;
     }
     .logo{
-        color: white;
+        color: black;
     }
     .nav-links li a{
         color: white;
@@ -189,16 +184,18 @@ nav{
     li.fade{
         opacity: 1;
     }
-}
 /*Animating Hamburger Icon on Click*/
 .toggle .line1{
     transform: rotate(-45deg) translate(-5px,6px);
+    background-color: white;
 }
 .toggle .line2{
     transition: all 0.7s ease;
+    background-color: white;
     width:0;
 }
 .toggle .line3{
+    background-color: white;
     transform: rotate(45deg) translate(-5px,-6px);
 }
 
@@ -209,7 +206,7 @@ nav{
 
 main{
     width: 100%;
-    padding-top: 50px;
+    padding-top: 100px;
     margin-bottom: 50px;
 }
 
