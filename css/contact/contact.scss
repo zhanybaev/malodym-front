@@ -108,7 +108,7 @@ nav{
 .hamburger div{
     width: 30px;
     height:3px;
-    background: #f2f5f7;
+    background: #131418;
     margin: 5px;
     transition: all 0.3s ease;
 }
@@ -116,19 +116,15 @@ nav{
     display: none;
 }
 
-@media screen and (max-width: 800px){
     nav{
         position: fixed;
         z-index: 3;
         height: 4.5rem;
-        background-color: #131418;
+        background-color: white;
         justify-content: space-evenly;
     }
     .nav-logo{
         margin-left: 0;
-    }
-    .logo{
-        color: white;
     }
     .nav-links li a{
         color: white;
@@ -188,16 +184,18 @@ nav{
     li.fade{
         opacity: 1;
     }
-}
 /*Animating Hamburger Icon on Click*/
 .toggle .line1{
     transform: rotate(-45deg) translate(-5px,6px);
+    background-color: white;
 }
 .toggle .line2{
     transition: all 0.7s ease;
+    background-color: white;
     width:0;
 }
 .toggle .line3{
+    background-color: white;
     transform: rotate(45deg) translate(-5px,-6px);
 }
 
@@ -219,7 +217,7 @@ nav{
     }
     h3{
         color: white;
-        font-size: 16px;
+        font-size: 30px;
         font-weight: 700;
     }
 }
